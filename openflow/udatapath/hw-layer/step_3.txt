@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:createAndActivateEvplRequest  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ns0='http://www.intunenetworks.com/inx/mgmt/nsp/eth/v1' xsi:schemaLocation='http://www.intunenetworks.com/inx/mgmt/nsp/eth/v1 ecs.xsd'>
+    <ns0:createEvplData>
+        <ns0:evplServiceAttributeParameters>
+            <ns0:ivid>251</ns0:ivid>
+        </ns0:evplServiceAttributeParameters>
+        <ns0:createAEndTp>
+            <ns0:parentTp>/~ioam/~me/iNX8000/000000000001/~ptp/eth/shelf/1/slot/8/port/1</ns0:parentTp>
+            <ns0:ivid>251</ns0:ivid>
+            <ns0:portTpRoleState>PTPR_FD_EDGE</ns0:portTpRoleState>
+        </ns0:createAEndTp>
+        <ns0:createZEndTp>
+            <ns0:parentTp>/~ioam/~me/iNX8000/000000000002/~ptp/eth/shelf/1/slot/8/port/1</ns0:parentTp>
+            <ns0:ivid>251</ns0:ivid>
+            <ns0:portTpRoleState>PTPR_FD_EDGE</ns0:portTpRoleState>
+        </ns0:createZEndTp>
+    </ns0:createEvplData>
+</ns0:createAndActivateEvplRequest>
